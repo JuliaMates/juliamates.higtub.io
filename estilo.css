@@ -1,0 +1,163 @@
+html,body {
+margin: 0;
+padding: 0;
+display: block;
+}
+ 
+.fonte-2 {
+    color: navy;
+    padding-top: 2%;
+    font-size: 20px;
+    line-height: 0.9;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+}
+header {
+    background-color: black;
+    color: white;
+    height:5px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 50px;
+    position: absolute;
+    top: 1px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color: #01AAEA;
+}
+#imagem_fundo {
+    background: url("IMG/capa\ nova.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: navy;
+    padding-top: 10%;
+    font-size: 50px;
+    line-height: 0.4;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+}
+#subtitulo {
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 2px solid white;
+    text-shadow: 0px 0px 
+}
+#acao {
+color: #1a61f0 ; 
+border: 1px  #1A61F0 solid;
+padding: 10px 20px 10px 20px ;
+border-radius: 10px;font-size: 22px;
+text-decoration: initial;
+
+}
+.icone {
+    width: 150%;
+    height: 25%;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: rgb(253, 235, 208) ;
+}
+
+.destaque-2 {
+
+    background-color: white;
+}
+
+.imgeco {
+    width: 25%;
+    height: 15%;
+}
+
+.fonte {
+    color:black;
+    padding-top: 15%;
+    font-size: 15px;
+    line-height: 0.9;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.eu {
+    width: 30%;
+    height: 50%;
+}
+
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color: #01AAEA;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+
+@media all and (max-width: 768px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+   }
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+}
